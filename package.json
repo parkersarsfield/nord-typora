@@ -1,0 +1,16 @@
+{
+  "name": "nord-typora",
+  "version": "0.0.1",
+  "description": "Port of the Nord color palette for Typora.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node-sass src/nord.scss ../typora-theme-toolkit/html-preview/theme/test.css --watch",
+    "build:css": "node-sass src/nord.scss build/nord.css"
+  },
+  "author": "parkersarsfield",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.12.0",
+    "nord": "^0.2.1"
+  }
+}
